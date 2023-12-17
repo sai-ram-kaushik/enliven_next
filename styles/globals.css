@@ -1,9 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&family=Buenard&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    body{
-        @apply bg-background font-buenard
-    }
+@layer base {
+  body {
+    @apply bg-background font-buenard;
+  }
+
+  h1 {
+    @apply text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-5xl font-arizonia font-bold;
+  }
 }
