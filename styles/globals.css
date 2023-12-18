@@ -9,6 +9,32 @@
   }
 
   h1 {
-    @apply text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-5xl font-arizonia font-bold;
+    @apply text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-6xl font-arizonia font-bold;
   }
+
+  h2 {
+    @apply text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-5xl font-bold;
+  }
+
+  h3 {
+    @apply text-3xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-4xl text-center lg:text-start font-bold;
+  }
+
+  p {
+    @apply text-xl text-center lg:text-start
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #CAFF33;
+  border-radius: 1rem;
+  background-clip: content-box;
 }

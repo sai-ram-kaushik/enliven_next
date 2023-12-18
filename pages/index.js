@@ -1,6 +1,11 @@
+import HomePage from "@/sections/HomePage";
+import WhatWeDo from "@/sections/WhatWeDo";
+
 export default function Home() {
   return (
-   <main>
-   </main>
-  )
+    <main>
+      <HomePage />
+      <WhatWeDo />
+    </main>
+  );
 }

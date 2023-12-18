@@ -34,7 +34,7 @@ const Navbar = () => {
           </div>
 
           <div className="hidden lg:flex">
-            <Button className="font-medium">Login</Button>
+            <Button className="font-medium lg:w-[7rem]">Login</Button>
           </div>
 
           <div
