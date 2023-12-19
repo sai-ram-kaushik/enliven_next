@@ -26,7 +26,7 @@ const WhatWeDo = () => {
               with Studying modules to bring them closer as a happy family.
             </p>
 
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-start gap-3">
               <div className="flex items-center gap-3">
                 <FaCheckCircle size={20} className="text-primary font-semibold" />
                 <p>Schedule a free psycologist session now</p>
@@ -34,7 +34,7 @@ const WhatWeDo = () => {
 
               <div className="flex items-center gap-3">
                 <FaCheckCircle size={20} className="text-primary font-semibold" />
-                <p>Schedule a free psycologist session now</p>
+                <p>Enjoy a hassle-free experience and learn so much about mental health.</p>
               </div>
             </div>
 
